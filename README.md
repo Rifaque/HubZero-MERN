@@ -9,13 +9,8 @@
 1. [About the Project](#about-the-project)  
 2. [Tech Stack](#tech-stack)  
 3. [Features](#features)  
-4. [Project Structure](#project-structure)  
-5. [Getting Started](#getting-started)  
-6. [Usage](#usage)  
-7. [Environment Variables](#environment-variables)  
-8. [Deployments & CI/CD](#deployments--cicd)  
-9. [Contributing](#contributing)  
-10. [License](#license)
+4. [Contributing](#contributing)  
+5. [License](#license)
 
 ---
 
