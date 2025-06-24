@@ -1,6 +1,6 @@
-# Bhatkal‑Time‑Luxe 🕒✨
+# HubZero‑MERN 🌐⚙️
 
-**An elegant MERN‑stack eCommerce platform for premium watches.**
+**The official MERN stack codebase for the Hub Zero website — a tech collective building software, electronics, and design solutions.**
 
 ---
 
@@ -9,83 +9,85 @@
 1. [About the Project](#about-the-project)  
 2. [Tech Stack](#tech-stack)  
 3. [Features](#features)  
-4. [Contributing](#contributing)  
-5. [License](#license)
+4. [Deployment](#deployment)  
+5. [Contributing](#contributing)  
+6. [License](#license)
 
 ---
 
 ## 📝 About the Project
 
-Bhatkal‑Time‑Luxe is a modern, responsive eCommerce application for showcasing and selling premium watches. Designed for optimal performance and user experience, it features a clean UI that looks great on mobile and desktop.
+**HubZero‑MERN** is the dynamic full-stack codebase for [hubzero.in](https://hubzero.in), a portfolio and service website for the Hub Zero team — a collaboration between CSE and ECE engineers delivering innovative projects in web development, software, electronics, and creative design.
+
+This platform includes:
+- A public-facing website with info about the team, services, and projects
+- A custom-built admin dashboard
+- Blog management, portfolio pages, and more (coming soon)
+
+The project is fully responsive, SEO-friendly, and designed to scale with advanced features like authentication, dynamic portfolios, and analytics.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** React, Tailwind CSS or Material‑UI  
+- **Frontend:** React, Tailwind CSS, GSAP (for animations)  
 - **Backend:** Node.js, Express.js  
-- **Database:** MongoDB (Mongoose)  
-- **Auth:** JWT-based user authentication  
-- **Deployment:** Docker / Nginx on Ubuntu (or your preferred cloud host)  
-- **CI/CD:** GitHub Actions (optional)
+- **Database:** MongoDB with Mongoose  
+- **Authentication:** JWT (with OTP or password support)  
+- **Email:** Nodemailer (OTP delivery)  
+- **Cloudinary:** Image hosting for team photos & uploads  
+- **Deployment:** Ubuntu Server 24 LTS, NGINX, Cloudflare  
+- **CI/CD:** Manual shell script deployment (`deploy.sh`)
 
 ---
 
 ## 🚀 Features
 
-- Browse a dynamic catalog of watches  
-- Add to cart & checkout flow  
-- User authentication & protected routes  
-- Admin panel: add/edit/delete products  
-- RESTful API with validation  
-- Optimized for performance & SEO-friendly  
-- Responsive design across devices  
+- 🧑‍💻 Dynamic team showcase with individual portfolio pages  
+- 🛡️ Admin panel with role-based access (main & normal admins)  
+- 📨 OTP-based + password-based login (JWT auth)  
+- 🖼️ Cloud image uploads (e.g., team photos, certifications)  
+- 🛠️ REST API for team data, portfolio content, and admin control  
+- 📊 Future-ready structure for blog, analytics, and testimonials  
+- 🎨 Clean, modern UI with smooth animations using GSAP + ScrollTrigger  
+- 📱 Fully responsive and optimized for all devices
 
 ---
 
+## 📦 Deployment
 
-## 🚀 Deployment & CI/CD
+This project is deployed on a self-hosted **Ubuntu 24.04 LTS** server using:
 
-You can deploy this MERN stack app on:
+- **NGINX** as reverse proxy for the React frontend and Node backend
+- **Cloudflare** for domain, DNS, HTTPS, and security
+- **PM2** for Node.js process management
+- **Shell script:** `deploy.sh` handles frontend build & live deployment
 
-- 🖥️ **VPS/Cloud server (like Ubuntu + NGINX)**
-- 📦 **Docker** (`docker-compose` recommended for full-stack apps)
-- ☁️ **Platforms** like Render, Railway, or Vercel + Backend-as-a-Service
-
-### GitHub Actions (Optional CI Setup)
-
-Add a `.github/workflows/deploy.yml` for CI/CD:
-- Linting, testing
-- Auto deploy to production server
-
-Let me know if you want a ready-to-use GitHub Actions workflow!
+> Future plans may include GitHub Actions for CI/CD.
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Feel free to:
-- 🐛 Open issues
-- 🌟 Suggest features
-- 📦 Submit pull requests
+We welcome contributions from the open-source and developer community!
 
 ### How to Contribute
 
-1. Fork this repo
-2. Create your branch (`git checkout -b feature/my-feature`)
-3. Commit your changes (`git commit -m "Add my feature"`)
-4. Push to your branch (`git push origin feature/my-feature`)
-5. Open a Pull Request
+1. Fork this repository  
+2. Create a new branch (`git checkout -b feature/your-feature`)  
+3. Commit your changes (`git commit -m "Add new feature"`)  
+4. Push to your branch (`git push origin feature/your-feature`)  
+5. Open a Pull Request 🚀
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
-See the [LICENSE](LICENSE) file for more information.
+Licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
 <p align="center">
-  Developed by Rifaque and the Hub Zero Team
+  ⚡ Built by <strong>Hub Zero</strong> — Bridging Code & Creativity.
 </p>
